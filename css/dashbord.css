@@ -1,0 +1,169 @@
+html,body{
+  height: 100%;
+}
+
+#header{
+   height: 100%;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+   #menubar{
+    display: none;
+   }
+}
+
+ ul{
+  margin-left: -8px;
+ }
+
+ul li{
+  list-style-type:none;
+}
+
+h5{
+  color: white;
+  padding-top: 20px;
+  line-height: 2px;
+}
+
+ .changeColor:hover{
+    color: #00cec9;
+ }
+
+ #menubar{
+  
+  
+ }
+
+ #content{
+
+ }
+
+ #header_down{
+  height: 93%;
+ }
+
+ .bg{
+  padding: 7px;
+ }
+
+ #total_product{
+  padding-left: 15px;
+  background: #0984e3;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+ }
+
+ #total_customer{
+  padding-left: 15px;
+  background:#e67e22;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+ }
+
+ #total_invoice{
+  padding-left: 15px;
+  background: #9b59b6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+ }
+
+ #paid_bill{
+  padding-left: 15px;
+  background: #fdcb6e;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+ }
+
+ .bi{
+   width: 38px;
+   height: 45px;
+   float: right;
+   margin-right: 20px;
+   visibility: hidden;
+ }
+
+ .logout{
+  float:right; 
+  margin-right:25px; 
+  padding: 5px;
+  cursor: pointer;
+ }
+ .col-lg-3{
+  cursor: pointer;
+ }
+ .col-lg-3:hover{
+  opacity: 0.70;
+ }
+
+ @media only screen and (max-width: 600px) {
+   .bi{
+    visibility: visible;
+    margin-right: -20px;
+   }
+   .logout{
+    visibility: hidden;
+    margin-right:0; 
+    padding: 0;
+   }
+}
+ 
+
+ #ha{
+  float: left;
+ }
+
+ /*sidebar navgation css*/
+
+ .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #34495e;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 17px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #140d0da2;
+  
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.closebtn{
+ 
+}
